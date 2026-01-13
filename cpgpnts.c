@@ -1,6 +1,0 @@
-#include "cpgplot.h"
-extern void pgpnts_(int *n, const float *x, const float *y, const int *symbol, int *ns);
-void cpgpnts(int n, const float *x, const float *y, const int *symbol, int ns)
-{
-  pgpnts_(&n, (float *)x, (float *)y, (int *)symbol, &ns);
-}
